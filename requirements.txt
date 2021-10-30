@@ -1,6 +1,6 @@
+Pyrogram
+TgCrypto
 Dnspython
 Motor
-Pyrogram
 Pymongo
-Requests 
-TgCrypto
+Requests
