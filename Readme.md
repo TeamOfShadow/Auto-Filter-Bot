@@ -7,7 +7,7 @@ __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In I
 
 # Usage
 
-## __How To Use Me!?__
+## __How To Use Me..!__
 
 * -> Add me to any group and make me admin<br>
 * -> Add me to your channel as admin with full previlages
@@ -15,9 +15,9 @@ __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In I
 
 ## Bot Commands (Works Only In Groups) :
 
-  * -> `/autofilter [chat_id / username]` - To establish a connection of group with a channel (Bot should be admin with full previlages in both group and channel)
+  * -> `/autofilter [chat_id/username]` - To establish a connection of group with a channel (Bot should be admin with full previlages in both group and channel)
 
-  * -> `/autofilterdel [chat_id / username]` - To delete a group's coneection with a channel (Use disable option from settigns pannel for disconnecting temporarily instead of deleteing)
+  * -> `/autofilterdel [chat_id/username]` - To delete a group's coneection with a channel (Use disable option from settigns pannel for disconnecting temporarily instead of deleteing)
 
   * -> `/autofilterdelall` - To delete all connections of a group and deletes all its file from DB
   
