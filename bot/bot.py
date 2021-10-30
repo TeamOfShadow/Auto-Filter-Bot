@@ -14,7 +14,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            "bot",
+            "Auto-Filter-Bot",
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={
@@ -37,4 +37,4 @@ class Bot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("Bot stopped. Bye.")
+        self.LOGGER(__name__).info("Bot stopped. Good Bye :)")
