@@ -5,48 +5,48 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>I Am Just A Advance Auto Filter Bot....😉
+
+I Am Just A Advance Auto Filter Bot....😉
 
 Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
 For More Details Click Help Button Below..
-</i>"""    
+"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
 
-<i>
--> Add Me To Any Group And Make Me Admin
--> Add Me To Your Desired Channel
-</i>
+<i>-> Add Me To Any Group And Make Me Admin
+-> Add Me To Your Desired Channel</i>
 
 <b>Bot Commands (Works Only In Groups) :</b>
 
-    -> <code>/autofilter chat_id</code>
-                OR                  - To Connect A Group With A Channel (Bot Should Be Admin With Full Previlages In Both Group And Channel)
-     <code>/autofilter @Username</code>
-     
-    -> <code>/autofilterdel chat_id</code>
-                OR                  - To disconnect A Group With A Channel
-     <code>/autofilterdel @Username</code>
-     
-    -> <code>/autofilterdelall</code>  - This Command Will Disconnect All Connected Channel With The Group And Deletes All Its File From DB
+   -> <code>/autofilter chat_id</code> OR <code>/autofilter @Username</code>
+       - To Connect A Group With A Channel (Bot Should Be Admin With Full Previlages In Both Group And Channel)
+       
+   -> <code>/autofilterdel chat_id</code> OR <code>/autofilterdel @Username</code>
+       - To disconnect A Group With A Channel
+       
+   -> <code>/autofilterdelall</code>  
+       - This Command Will Disconnect All Connected Channel With The Group And Deletes All Its File From DB
     
-    -> <code>/autofiltersettings</code> -  This Command Will Display You A Settings Pannel Instance Which Can Be Used To Tweek Bot's Settings Accordingly
+   -> <code>/autofiltersettings</code> 
+       -  This Command Will Display You A Settings Pannel Instance Which Can Be Used To Tweek Bot's Settings Accordingly
 
-            -> <code>Channel</code> - Button Will Show You All The Connected Chats With The Group And Will Show Buttons Correspnding To There Order For Furthur Controls
+            ~ <code>Channel</code> - Button Will Show You All The Connected Chats With The Group And Will Show Buttons Correspnding To There Order For Furthur Controls
             
-            -> <code>Filter Types</code> - Button Will Show You The 3 Filter Option Available In Bot... Pressing Each Buttons Will Either Enable or Disable Them And This Will Take Into Action As Soon As You Use Them Without The Need Of A Restart
+            ~ <code>Filter Types</code> - Button Will Show You The 3 Filter Option Available In Bot... Pressing Each Buttons Will Either Enable or Disable Them And This Will Take Into Action As Soon As You Use Them Without The Need Of A Restart
 
-            -> <code>Configure</code> - Button Will Helps You To Change No. of Pages/ Buttons Per Page/ Total Result Without Acutally Editing The Repo... Also It Provide Option To Enable/Disable For Showing Invite Link In Each Results
+            ~ <code>Configure</code> - Button Will Helps You To Change No. of Pages/ Buttons Per Page/ Total Result Without Acutally Editing The Repo... Also It Provide Option To Enable/Disable For Showing Invite Link In Each Results
             
-            -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
+            ~ <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """
+<b>➥ Name</b> : <code>Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/DeshadeethThisarana">Deshadeeth Thisarana</a></i></b>
+<b>➥ Creator</b> : <b><a href="https://t.me/DeshadeethThisarana">Deshadeeth Thisarana</a></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
