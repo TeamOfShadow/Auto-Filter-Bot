@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Contributors', url="https://t.me/ShadowBotDevs"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Contributors, url='https://t.me/ShadowBotDevs),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/TeamOfShadow/Auto-Filter-Bot')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/ShadowSupport_Official)
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
