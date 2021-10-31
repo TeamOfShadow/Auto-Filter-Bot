@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Contributors, url='https://t.me/ShadowBotDevs'),
+        InlineKeyboardButton('Contributors', url='https://t.me/ShadowBotDevs'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/TeamOfShadow/Auto-Filter-Bot')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/ShadowSupport_Official')
