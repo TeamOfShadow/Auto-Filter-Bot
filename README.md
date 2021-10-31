@@ -47,7 +47,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/TeamOfShadow/Adv-Auto-Filter-Bot/tree/main">
+<a href="https://heroku.com/deploy?template=https://github.com/TeamOfShadow/Auto-Filter-Bot/tree/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -56,7 +56,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/TeamOfShadow/Adv-Auto-Filter-Bot
+git clone https://github.com/TeamOfShadow/Auto-Filter-Bot
 cd Adv-Auto-Filter-Bot
 pip3 install -r requirements.txt
 # Change The Vars Of bot/__init__.py File Accordingly
