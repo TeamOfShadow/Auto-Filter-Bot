@@ -1365,7 +1365,7 @@ async def cb_about(bot, update: CallbackQuery):
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+="\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
     text+="""\n<b><i>Bot Support:</i></b> <a href="https://t.me/ShadowSupport_Official">Sʜᴀᴅᴏᴡ •[Sᴜᴘᴘᴏʀᴛ]•</a>\n"""
-    text+="""\n<b><i>Bot Updates:</i></b> <a href="https://t.me/ShadowBotUpdates">Sʜᴀᴅᴏᴡ •[Uᴘᴅᴀᴛᴇs]•</a>""""
+    text+="""\n<b><i>Bot Updates:</i></b> <a href="https://t.me/ShadowBotUpdates">Sʜᴀᴅᴏᴡ •[Uᴘᴅᴀᴛᴇs]•</a>"""
     text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/TeamOfShadow/Auto-Filter-Bot">Source</a>"""
 
     buttons = [
