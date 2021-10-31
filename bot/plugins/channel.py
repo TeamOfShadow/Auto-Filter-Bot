@@ -12,10 +12,10 @@ from bot.plugins.auto_filter import recacher # pylint: disable=import-error
 
 db = Database()
 
-@Client.on_message(filters.command(["add"]) & filters.group, group=1)
+@Client.on_message(filters.command(["autofilter"]) & filters.group, group=1)
 async def connect(bot: Bot, update):
     """
-    A Funtion To Handle Incoming /add Command TO COnnect A Chat With Group
+    A Funtion To Handle Incoming /autofilter Command TO COnnect A Chat With Group
     """
     chat_id = update.chat.id
     user_id = update.from_user.id if update.from_user else None
@@ -193,10 +193,10 @@ async def connect(bot: Bot, update):
     await wait_msg.edit_text(f"Channel Was Sucessfully Added With <code>{len(data)}</code> Files..")
 
 
-@Client.on_message(filters.command(["del"]) & filters.group, group=1)
+@Client.on_message(filters.command(["autofilterdel"]) & filters.group, group=1)
 async def disconnect(bot: Bot, update):
     """
-    A Funtion To Handle Incoming /del Command TO Disconnect A Chat With A Group
+    A Funtion To Handle Incoming /autofilterdel Command TO Disconnect A Chat With A Group
     """
     chat_id = update.chat.id
     user_id = update.from_user.id if update.from_user else None
@@ -258,10 +258,10 @@ async def disconnect(bot: Bot, update):
     await wait_msg.edit_text("Sucessfully Deleted All Files From DB....")
 
 
-@Client.on_message(filters.command(["delall"]) & filters.group, group=1)
+@Client.on_message(filters.command(["autofilterdelall"]) & filters.group, group=1)
 async def delall(bot: Bot, update):
     """
-    A Funtion To Handle Incoming /delall Command TO Disconnect All Chats From A Group
+    A Funtion To Handle Incoming /autofilterdelall Command TO Disconnect All Chats From A Group
     """
     chat_id=update.chat.id
     user_id = update.from_user.id if update.from_user else None
