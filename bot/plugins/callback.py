@@ -1367,15 +1367,11 @@ async def cb_about(bot, update: CallbackQuery):
     text+="\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
     text+="""\n<b><i>Bot Support:</i></b> <a href="https://t.me/ShadowSupport_Official">Sʜᴀᴅᴏᴡ •[Sᴜᴘᴘᴏʀᴛ]•</a>\n"""
     text+="""\n<b><i>Bot Updates:</i></b> <a href="https://t.me/ShadowBotUpdates">Sʜᴀᴅᴏᴡ •[Uᴘᴅᴀᴛᴇs]•</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/TeamOfShadow/Auto-Filter-Bot">Source</a>"""
-
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/TeamOfShadow/Auto-Filter-Bot">Source</a>\n"""
+    text+="\n<b><i>Original work done by: @CrazyBotszGrp</b></i>"
+    
     buttons = [
         [
-            InlineKeyboardButton
-                (
-                    "My Dev ⚡", url="https://t.me/DeshadeethThisarana"
-                ),
-                
             InlineKeyboardButton
                 (
                     "🔙 Back", callback_data="settings"
@@ -1404,7 +1400,6 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/DeshadeethThisarana'),
             InlineKeyboardButton('Source Code 🧾', url ='https://github.com/TeamOfShadow/Auto-Filter-Bot')
         ],[
             InlineKeyboardButton('Support 🛠', url='https://t.me/ShadowSupport_Official')
